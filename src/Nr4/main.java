@@ -15,10 +15,11 @@ public class main {
         for (int i = 0; i < 20; i++) {
             if(i == 10){
                 it.loeschenAktuellesElement();
-            }else {
-
-                System.out.println(i + "----->" + it.naechstesElement());
             }
+
+            System.out.println(i + "----->" + it.naechstesElement());
+
+
         }
 
 
